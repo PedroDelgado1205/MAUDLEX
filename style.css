@@ -1,36 +1,54 @@
+/* Estilos generales */
+
+body{
+    background-color: #858686;
+    text-align: center;
+}
+
 #logo {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
 }
 
 #logo img {
     max-width: 100%;
-    max-height: 100%;
+    height: auto;
 }
-
 
 #info {
     background-color: #282828;
     color: antiquewhite;
     padding: 20px;
     text-align: center; 
+    height: 100%;
 }
-
-
 
 main {
     background-color: #858686;
     padding: 20px; 
 }
 
-#redes{
-    width: 100%;
+#redes {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+}
+
+.red {
+    width: 100%;
+}
+
+.red table {
+    width: 100%;
+}
+
+.red .logo img {
+    max-width: 100px; /* Ajusta el ancho de la imagen según sea necesario */
+    height: auto;
+}
+
+.red .social {
+    padding: 20px; 
+    text-align: center;
 }
 
 a {
@@ -39,57 +57,80 @@ a {
     text-decoration: none; 
 }
 
-.red {
+a {
     background-color: #B6B6B6;
     width: 100%;
+    height: 33.33%;
     border: 1px solid #282828;
     border-radius: 5px;
     margin-bottom: 20px;
     transition: background-color 2s ease; /* Agregamos una transición suave para el cambio de color de fondo */
 }
 
-.red:hover {
+a:hover {
     background-color: rgb(243, 237, 214); /* Cambiamos el color de fondo al hacer hover sobre el contenedor .red */
 }
 
-.red table {
-    width: 100%;
-}
-
-.red .logo img {
-    max-width: 100px;
-    height: auto;
-    padding-left: 25px;
-}
-
-#head {
+/* Estilos para el carrusel */
+#miembros{
     text-align: center;
-    margin-bottom: 20px;
+    background-color: #474747;
+    color: antiquewhite;
 }
 
-.red .social {
-    padding: 20px; 
+#carouselExampleIndicators{
+    background-color: #282828;
+    width: 50%; 
+    height: 50%;
+    margin: auto;
+    padding: 20px;
 }
 
-.red .social b {
-    font-size: 18px; 
+.carousel-item img {
+    max-width: 100%;
+    height: 300px; 
+    object-fit: contain; 
 }
 
-.red .social p {
-    font-size: 16px; 
-    margin-top: 10px; 
+.carousel-caption{
+    background-color: #282828b2;
+    width: auto;
+    margin: auto;
 }
 
-
-main {
-    background-color: #858686;
+/* Estilos adicionales */
+#info {
+    padding-bottom: 20px; /* Añadir espacio debajo del contenido para evitar que se superponga con el carrusel */
 }
 
-#dev {
-    width: 100%;
-    height: auto;
-    color: #282828;
-    text-align: center; 
-    padding: 20px; 
-    font-size: 10px;
+#redes {
+    margin-top: 20px; /* Ajustar el margen superior para separar el contenido del carrusel */
 }
+
+/* Media queries para dispositivos móviles */
+@media screen and (max-width: 768px) {
+    #info {
+        height: auto;
+        padding: 10px;
+    }
+
+    #redes {
+        margin-top: 10px;
+    }
+
+    .red .logo img {
+        max-width: 50px;
+    }
+
+    #carouselExampleIndicators {
+        width: 80%; 
+        height: auto; 
+        margin: 10px auto; 
+        padding: 10px; 
+    }
+
+    .carousel-item img {
+        height: auto; 
+    }
+}
+
