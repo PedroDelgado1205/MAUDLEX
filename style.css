@@ -118,7 +118,7 @@ a:hover {
 }
 
 /* Media queries para dispositivos móviles */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 500px) {
     #info {
         height: auto;
         padding: 10px;
