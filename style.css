@@ -1,0 +1,95 @@
+#logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+#info {
+    background-color: #282828;
+    color: antiquewhite;
+    padding: 20px;
+    text-align: center; 
+}
+
+
+
+main {
+    background-color: #858686;
+    padding: 20px; 
+}
+
+#redes{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    width: 100%;
+    color: inherit; 
+    text-decoration: none; 
+}
+
+.red {
+    background-color: #B6B6B6;
+    width: 100%;
+    border: 1px solid #282828;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    transition: background-color 2s ease; /* Agregamos una transición suave para el cambio de color de fondo */
+}
+
+.red:hover {
+    background-color: rgb(243, 237, 214); /* Cambiamos el color de fondo al hacer hover sobre el contenedor .red */
+}
+
+.red table {
+    width: 100%;
+}
+
+.red .logo img {
+    max-width: 100px;
+    height: auto;
+    padding-left: 25px;
+}
+
+#head {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.red .social {
+    padding: 20px; 
+}
+
+.red .social b {
+    font-size: 18px; 
+}
+
+.red .social p {
+    font-size: 16px; 
+    margin-top: 10px; 
+}
+
+
+main {
+    background-color: #858686;
+}
+
+#dev {
+    width: 100%;
+    height: auto;
+    color: #282828;
+    text-align: center; 
+    padding: 20px; 
+    font-size: 10px;
+}
