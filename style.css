@@ -112,9 +112,14 @@ a:hover {
     font-size: 20px;
 }
 
-#dev{
-    text-align: center;
-    font-size: 10px;
+.modal-header{
+    background-color: #2c2c2c;
+    color: #DEE2E6;
+}
+
+.modal-body{
+    background-color: #282a2c;
+    color: #DEE2E6;
 }
 
 /* Media queries para dispositivos móviles */
