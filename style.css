@@ -142,5 +142,9 @@ a:hover {
     .carousel-item img {
         height: auto; 
     }
+    
+    .presentacion{
+        font-size: 10px;
+    }
 }
 
