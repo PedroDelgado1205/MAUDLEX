@@ -150,6 +150,19 @@ a:hover {
         height: auto; 
     }
     
+    .carousel-caption{
+        background-color: #28282833;
+        width: auto;
+        height: 120px;
+        margin: auto;   
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nombre{
+        font-size: smaller;
+    }
+
     .presentacion{
         font-size: 10px;
     }
