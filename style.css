@@ -6,6 +6,7 @@ body{
 }
 
 #logo {
+    background-color: #141414;
     text-align: center;
 }
 
@@ -93,8 +94,9 @@ a:hover {
 }
 
 .carousel-caption{
-    background-color: #282828b2;
+    background-color: #28282833;
     width: auto;
+    height: auto;
     margin: auto;
 }
 
